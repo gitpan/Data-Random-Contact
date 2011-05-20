@@ -1,6 +1,6 @@
 package Data::Random::Contact::Types;
 BEGIN {
-  $Data::Random::Contact::Types::VERSION = '0.01';
+  $Data::Random::Contact::Types::VERSION = '0.02';
 }
 
 use strict;
@@ -11,7 +11,6 @@ use base 'MooseX::Types::Combine';
 
 __PACKAGE__->provide_types_from(
     qw(
-        MooseX::Types::Common::String
         MooseX::Types::Moose
         Data::Random::Contact::Types::Internal
         )

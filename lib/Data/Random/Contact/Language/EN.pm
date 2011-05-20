@@ -1,6 +1,6 @@
 package Data::Random::Contact::Language::EN;
 BEGIN {
-  $Data::Random::Contact::Language::EN::VERSION = '0.01';
+  $Data::Random::Contact::Language::EN::VERSION = '0.02';
 }
 
 use strict;
@@ -140,7 +140,7 @@ Data::Random::Contact::Language::EN - English language contact data
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

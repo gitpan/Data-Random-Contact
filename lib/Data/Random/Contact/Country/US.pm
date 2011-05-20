@@ -1,6 +1,6 @@
 package Data::Random::Contact::Country::US;
 BEGIN {
-  $Data::Random::Contact::Country::US::VERSION = '0.01';
+  $Data::Random::Contact::Country::US::VERSION = '0.02';
 }
 
 use strict;
@@ -65,7 +65,7 @@ Data::Random::Contact::Country::US - US phone number and address data
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

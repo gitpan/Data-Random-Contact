@@ -1,6 +1,6 @@
 package Data::Random::Contact::Types::Internal;
 BEGIN {
-  $Data::Random::Contact::Types::Internal::VERSION = '0.01';
+  $Data::Random::Contact::Types::Internal::VERSION = '0.02';
 }
 
 use strict;
