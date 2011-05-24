@@ -1,6 +1,6 @@
 package Data::Random::Contact::Language::EN;
 BEGIN {
-  $Data::Random::Contact::Language::EN::VERSION = '0.03';
+  $Data::Random::Contact::Language::EN::VERSION = '0.04';
 }
 
 use strict;
@@ -16,7 +16,7 @@ my @Words;
     while (<DATA>) {
         next unless /\S/;
 
-        if (/__(\w+)(?:_(\w+))?__/) {
+        if (/__([^_]+)(?:_([^_]+))?__/) {
             if ( $1 eq 'names' ) {
                 $array = $Names{$2} = [];
             }
@@ -138,7 +138,7 @@ Data::Random::Contact::Language::EN - English language contact data
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 DESCRIPTION
 
