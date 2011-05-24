@@ -1,6 +1,6 @@
 package Data::Random::Contact::Language::EN;
 BEGIN {
-  $Data::Random::Contact::Language::EN::VERSION = '0.04';
+  $Data::Random::Contact::Language::EN::VERSION = '0.05';
 }
 
 use strict;
@@ -138,7 +138,7 @@ Data::Random::Contact::Language::EN - English language contact data
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 DESCRIPTION
 
@@ -1511,7 +1511,7 @@ Zaida
 Zella
 Zula
 
-__surname__
+__names_surname__
 Abad
 Abbott
 Abe

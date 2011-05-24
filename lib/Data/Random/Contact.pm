@@ -1,6 +1,6 @@
 package Data::Random::Contact;
 BEGIN {
-  $Data::Random::Contact::VERSION = '0.04';
+  $Data::Random::Contact::VERSION = '0.05';
 }
 
 use namespace::autoclean;
@@ -180,7 +180,7 @@ Data::Random::Contact - Generate random contact data
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 

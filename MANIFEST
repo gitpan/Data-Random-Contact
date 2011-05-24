@@ -12,7 +12,7 @@ lib/Data/Random/Contact/Country/US.pm
 lib/Data/Random/Contact/Language/EN.pm
 lib/Data/Random/Contact/Types.pm
 lib/Data/Random/Contact/Types/Internal.pm
-t/load.t
+t/basic.t
 t/release-cpan-changes.t
 t/release-eol.t
 t/release-no-tabs.t
